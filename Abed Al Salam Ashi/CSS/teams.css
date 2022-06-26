@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #C3C4C6;
+}
+table {
+    width: 1200px;
+    margin: auto;
+}
+.select {
+    background-color: #01579B;
+}
+button {
+    border: none;
+    background-color: #fff; 
+    border-bottom: 2px solid white;   
+}
+#table-nb-2 {
+    display: none;
+}
+.blue:hover {
+    background-color: lightblue;
+}
+.orange:hover {
+    background-color: orange;
+}
+.green:hover {
+    background-color: lightgreen;
+}
+.red:hover {
+    background-color: #FB5561;
+}
+#btn-east {
+  background-color: #FB5561;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+#btn-west {
+  background-color: #FB5561;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+}

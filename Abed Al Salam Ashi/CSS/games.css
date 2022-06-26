@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        margin-left: 200px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 9px;
+    }
+    header {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        background-color: #01579B;
+        color: white;
+    }
+    .game {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        margin: auto;
+        align-items: center;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 90%;
+        gap: 25px;
+    }
+    .game:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .teams {
+        display: flex;
+        gap: 100px;
+    }
+    .playoffs {
+        display: flex;
+        margin-top: 20px;
+    }

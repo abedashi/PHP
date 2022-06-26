@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+header {
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+}
+.form {
+    padding: 20px;
+}
+.form-comments {
+  padding: 5px 20px 5px 20px;
+}
+.comment {
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    padding: 15px;
+}
+.user-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
